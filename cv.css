@@ -1,0 +1,182 @@
+:root {
+  --header-text-color: rgb(200, 0, 0);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(77, 77, 77);
+}
+.container {
+  margin: 20px;
+  display: flex;
+  padding: 10px;
+  width: 998px !important;
+  background-color: beige;
+}
+.left {
+  width: 35%;
+}
+/* personal info css */
+.name {
+  color: var(--header-text-color);
+  font-size: 28px;
+}
+.role {
+  font-size: 18px;
+  color: rgb(124, 124, 124);
+}
+.description {
+  text-align: justify;
+  padding-bottom: 17px;
+}
+/* work experience  css */
+.work-experience {
+  font-size: 20px;
+  margin-left: 5px;
+  color: var(--header-text-color);
+}
+.job-description {
+  text-align: justify;
+  font-size: 14px;
+}
+.date-location {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  color: rgb(124, 124, 124);
+}
+/* education css */
+
+.edu {
+  margin-top: 40px;
+}
+.edu h3 {
+  font-size: 20px;
+  margin-left: 5px;
+  color: var(--header-text-color);
+}
+
+/* language css */
+.lang {
+  margin-top: 40px;
+}
+
+.lang h3 {
+  font-size: 20px;
+  margin-left: 5px;
+  color: var(--header-text-color);
+}
+
+/* right side css */
+.right {
+  margin-left: 250px;
+  width: 35%;
+}
+/* contacts */
+.contacts {
+  text-align: right;
+  margin-top: 25px;
+  margin-bottom: 74px;
+}
+
+.skill h3 {
+  font-size: 20px;
+  margin-left: 5px;
+  color: var(--header-text-color);
+}
+.skill-section {
+  margin: 3px;
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills {
+  padding: 3.5px;
+
+  font-weight: 600;
+  margin-right: 5px;
+  margin-top: 10px;
+  border: 2px solid var(--header-text-color);
+  background-color: var(--header-text-color);
+  border-radius: 10px;
+  color: aliceblue;
+}
+.organization {
+  margin-top: 28px;
+}
+.organization h3 {
+  font-size: 20px;
+  margin-left: 5px;
+  color: var(--header-text-color);
+}
+.org-date-location {
+  font-weight: 500;
+  color: rgb(124, 124, 124);
+}
+.org-details {
+  margin-top: 15px;
+}
+
+.h-a {
+  margin-top: 28px;
+}
+.h-a hr {
+  width: 196px;
+  margin: 3px;
+  border-top: 3px solid black;
+}
+.h-a h3 {
+  font-size: 20px;
+  margin-left: 5px;
+  color: var(--header-text-color);
+}
+.award-by1,
+.award-by2,
+.award-by3 {
+  font-weight: 500;
+  color: rgb(124, 124, 124);
+}
+
+.conf-course h3 {
+  font-size: 20px;
+  margin-left: 5px;
+  color: var(--header-text-color);
+}
+.conf-course hr {
+  width: 210px;
+  margin: 3px;
+  border-top: 3px solid black;
+}
+.conf-course {
+  margin-top: 28px;
+}
+.conf-course-by1,
+.conf-course-by2,
+.conf-course-by3 {
+  font-weight: 500;
+  color: rgb(124, 124, 124);
+}
+.print {
+  text-align: center;
+  margin: 2px;
+}
+
+@media only screen and (max-width: 426px) {
+  .print {
+    margin-left: 437px;
+  }
+}
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  head {
+    visibility: hidden;
+  }
+  .container * {
+    visibility: visible;
+  }
+}

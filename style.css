@@ -1,0 +1,100 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #6de1ff,
+    #00c3ff,
+    #009fff,
+    #0075ff,
+    #0035ff
+  );
+}
+body h1 {
+  text-align: center;
+  color: white;
+}
+form h2 {
+  color: white;
+}
+
+form {
+  width: 65%;
+  margin-left: 290px;
+  margin-bottom: 40px;
+
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+#language1,
+#language2,
+#language3 {
+  width: 25%;
+}
+#volume1,
+#volume2,
+#volume3 {
+  margin-left: 3rem;
+  margin-top: 18px;
+  width: 15%;
+}
+#lang-skill {
+  display: flex;
+}
+.main-btn {
+  text-align: center;
+}
+
+#skills1,
+#skills2,
+#skills3,
+#skills4,
+#skills5,
+#skills6,
+#skills7,
+#skills8 {
+  width: 90%;
+  margin: 10px;
+}
+.skill-section {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#WE {
+  display: flex;
+}
+
+@media only screen and (max-width: 1025px) {
+  form {
+    margin-left: 190px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  form {
+    width: 94%;
+    margin-left: 19px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  form {
+    width: 94%;
+    margin-left: 12px;
+  }
+  body h1 {
+    font-size: 13px;
+  }
+  #WE {
+    display: flex;
+  }
+  .enddate {
+    width: 65%;
+  }
+  .weLocation {
+    width: 40%;
+  }
+}
